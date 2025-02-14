@@ -1,6 +1,9 @@
+// next.config.mjs
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // enables static HTML export
-}
+  output: 'export', // Enable static HTML export
+  // You can add additional configuration options here if needed
+};
 
-module.exports = nextConfig
+export default nextConfig;
